@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (TeX Live 2025) (preloaded format=pdflatex 2025.12.14)  20 NOV 2026 12:38
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (TeX Live 2025) (preloaded format=pdflatex 2025.12.14)  20 NOV 2026 12:40
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1256,13 +1256,19 @@ LaTeX Font Info:    Font shape `OT1/FiraSans-TLF/regular/n' will be
 
 {c:/texlive/2025/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{c:/texlive/2025/
 texmf-dist/fonts/enc/dvips/fira/fir_q4uag2.enc}]
-LaTeX Font Info:    Trying to load font information for U+msa on input line 143
+LaTeX Font Info:    Font shape `OT1/FiraSans-TLF/m/n' in size <9> not available
+
+(Font)              Font shape `OT1/FiraSans-TLF/regular/n' tried instead on in
+put line 141.
+LaTeX Font Info:    Font shape `OT1/FiraSans-TLF/regular/n' will be
+(Font)              scaled to size 9.0pt on input line 141.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 141
 .
 
 (c:/texlive/2025/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 143
+LaTeX Font Info:    Trying to load font information for U+msb on input line 141
 .
 
 (c:/texlive/2025/texmf-dist/tex/latex/amsfonts/umsb.fd
@@ -1271,147 +1277,116 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 LaTeX Font Info:    Font shape `OT1/FiraSans-TLF/m/n' in size <6> not available
 
 (Font)              Font shape `OT1/FiraSans-TLF/regular/n' tried instead on in
-put line 143.
+put line 141.
 LaTeX Font Info:    Font shape `OT1/FiraSans-TLF/regular/n' will be
-(Font)              scaled to size 6.0pt on input line 143.
-LaTeX Font Info:    Font shape `OT1/FiraSans-TLF/m/it' in size <8> not availabl
+(Font)              scaled to size 6.0pt on input line 141.
+LaTeX Font Info:    Font shape `OT1/FiraSans-TLF/m/it' in size <9> not availabl
 e
 (Font)              Font shape `OT1/FiraSans-TLF/regular/it' tried instead on i
-nput line 143.
+nput line 141.
 LaTeX Font Info:    Font shape `OT1/FiraSans-TLF/regular/it' will be
-(Font)              scaled to size 8.0pt on input line 143.
+(Font)              scaled to size 9.0pt on input line 141.
 LaTeX Font Info:    Font shape `OT1/FiraSans-TLF/m/it' in size <6> not availabl
 e
 (Font)              Font shape `OT1/FiraSans-TLF/regular/it' tried instead on i
-nput line 143.
+nput line 141.
 LaTeX Font Info:    Font shape `OT1/FiraSans-TLF/regular/it' will be
-(Font)              scaled to size 6.0pt on input line 143.
+(Font)              scaled to size 6.0pt on input line 141.
 LaTeX Font Info:    Font shape `OT1/FiraSans-TLF/m/it' in size <5> not availabl
 e
 (Font)              Font shape `OT1/FiraSans-TLF/regular/it' tried instead on i
-nput line 143.
+nput line 141.
 LaTeX Font Info:    Font shape `OT1/FiraSans-TLF/regular/it' will be
-(Font)              scaled to size 5.0pt on input line 143.
-LaTeX Font Info:    Font shape `OT1/FiraSans-TLF/b/n' in size <8> not available
+(Font)              scaled to size 5.0pt on input line 141.
+LaTeX Font Info:    Font shape `OT1/FiraSans-TLF/b/n' in size <9> not available
 
 (Font)              Font shape `OT1/FiraSans-TLF/bold/n' tried instead on input
- line 143.
+ line 141.
 LaTeX Font Info:    Font shape `OT1/FiraSans-TLF/bold/n' will be
-(Font)              scaled to size 8.0pt on input line 143.
+(Font)              scaled to size 9.0pt on input line 141.
 <assets/figures/fsr_chart_2_5a.pdf, id=55, 180.675pt x 258.9675pt>
 File: assets/figures/fsr_chart_2_5a.pdf Graphic file (type pdf)
 <use assets/figures/fsr_chart_2_5a.pdf>
 Package pdftex.def Info: assets/figures/fsr_chart_2_5a.pdf  used on input line 
-143.
-(pdftex.def)             Requested size: 97.20189pt x 139.3156pt.
-LaTeX Font Info:    Trying to load font information for TS1+FiraSans-TLF on inp
-ut line 143.
-
-(c:/texlive/2025/texmf-dist/tex/latex/fira/TS1FiraSans-TLF.fd
-File: TS1FiraSans-TLF.fd 2019/10/10 (autoinst) Font definitions for TS1/FiraSan
-s-TLF.
-)
-LaTeX Font Info:    Font shape `TS1/FiraSans-TLF/m/n' in size <5> not available
-
-(Font)              Font shape `TS1/FiraSans-TLF/regular/n' tried instead on in
-put line 143.
-LaTeX Font Info:    Font shape `TS1/FiraSans-TLF/regular/n' will be
-(Font)              scaled to size 5.0pt on input line 143.
+141.
+(pdftex.def)             Requested size: 119.87993pt x 171.82211pt.
 LaTeX Font Info:    Font shape `OT1/FiraSans-TLF/m/n' in size <12> not availabl
 e
 (Font)              Font shape `OT1/FiraSans-TLF/regular/n' tried instead on in
-put line 143.
+put line 141.
 LaTeX Font Info:    Font shape `OT1/FiraSans-TLF/regular/n' will be
-(Font)              scaled to size 12.0pt on input line 143.
+(Font)              scaled to size 12.0pt on input line 141.
 LaTeX Font Info:    Font shape `OT1/FiraSans-TLF/b/n' in size <12> not availabl
 e
 (Font)              Font shape `OT1/FiraSans-TLF/bold/n' tried instead on input
- line 143.
+ line 141.
 LaTeX Font Info:    Font shape `OT1/FiraSans-TLF/bold/n' will be
-(Font)              scaled to size 12.0pt on input line 143.
+(Font)              scaled to size 12.0pt on input line 141.
 LaTeX Font Info:    Font shape `OT1/FiraSans-TLF/m/n' in size <4> not available
 
 (Font)              Font shape `OT1/FiraSans-TLF/regular/n' tried instead on in
-put line 143.
+put line 141.
 LaTeX Font Info:    Font shape `OT1/FiraSans-TLF/regular/n' will be
-(Font)              scaled to size 4.0pt on input line 143.
+(Font)              scaled to size 4.0pt on input line 141.
  [2
 
-{c:/texlive/2025/texmf-dist/fonts/enc/dvips/fira/fir_fdi65k.enc} <./assets/figu
-res/fsr_chart_2_5a.pdf>]
-LaTeX Font Info:    Font shape `OT1/FiraSans-TLF/b/n' in size <7> not available
-
-(Font)              Font shape `OT1/FiraSans-TLF/bold/n' tried instead on input
- line 193.
-LaTeX Font Info:    Font shape `OT1/FiraSans-TLF/bold/n' will be
-(Font)              scaled to size 7.0pt on input line 193.
-Package pgfplots info on input line 193: Using 'lua backend=false' for axis: st
+ <./assets/figures/fsr_chart_2_5a.pdf>]
+Package pgfplots info on input line 190: Using 'lua backend=false' for axis: st
 acked plots unsupported (yet).
 PGFPlots: reading {assets/data/fsr24b.dat}
 PGFPlots: reading {assets/data/fsr24b.dat}
 PGFPlots: reading {assets/data/fsr24b.dat}
 PGFPlots: reading {assets/data/fsr24b.dat}
+LaTeX Font Info:    Font shape `OT1/FiraSans-TLF/m/it' in size <7> not availabl
+e
+(Font)              Font shape `OT1/FiraSans-TLF/regular/it' tried instead on i
+nput line 190.
+LaTeX Font Info:    Font shape `OT1/FiraSans-TLF/regular/it' will be
+(Font)              scaled to size 7.0pt on input line 190.
 PGFPlots: reading {assets/data/fsr24b.dat}
+LaTeX Font Info:    Font shape `OT1/FiraSans-TLF/b/n' in size <7> not available
+
+(Font)              Font shape `OT1/FiraSans-TLF/bold/n' tried instead on input
+ line 190.
+LaTeX Font Info:    Font shape `OT1/FiraSans-TLF/bold/n' will be
+(Font)              scaled to size 7.0pt on input line 190.
  [3
 
 ]
-<assets/figures/ecb_fsr_briefing_spreads.pdf, id=148, 307.1475pt x 242.9075pt>
+<assets/figures/ecb_fsr_briefing_spreads.pdf, id=145, 307.1475pt x 242.9075pt>
 File: assets/figures/ecb_fsr_briefing_spreads.pdf Graphic file (type pdf)
 <use assets/figures/ecb_fsr_briefing_spreads.pdf>
 Package pdftex.def Info: assets/figures/ecb_fsr_briefing_spreads.pdf  used on i
-nput line 228.
-(pdftex.def)             Requested size: 117.43431pt x 92.87471pt.
+nput line 225.
+(pdftex.def)             Requested size: 212.51508pt x 168.06964pt.
  [4
 
  <./assets/figures/ecb_fsr_briefing_spreads.pdf>]
-LaTeX Font Info:    Font shape `OT1/FiraSans-TLF/m/n' in size <9> not available
-
-(Font)              Font shape `OT1/FiraSans-TLF/regular/n' tried instead on in
-put line 274.
-LaTeX Font Info:    Font shape `OT1/FiraSans-TLF/regular/n' will be
-(Font)              scaled to size 9.0pt on input line 274.
-LaTeX Font Info:    Font shape `OT1/FiraSans-TLF/m/it' in size <9> not availabl
-e
-(Font)              Font shape `OT1/FiraSans-TLF/regular/it' tried instead on i
-nput line 274.
-LaTeX Font Info:    Font shape `OT1/FiraSans-TLF/regular/it' will be
-(Font)              scaled to size 9.0pt on input line 274.
 LaTeX Font Info:    Font shape `OT1/FiraSans-TLF/m/it' in size <10> not availab
 le
 (Font)              Font shape `OT1/FiraSans-TLF/regular/it' tried instead on i
-nput line 274.
+nput line 273.
 LaTeX Font Info:    Font shape `OT1/FiraSans-TLF/regular/it' will be
-(Font)              scaled to size 10.0pt on input line 274.
-
-Overfull \vbox (4.10681pt too high) detected at line 274
- []
+(Font)              scaled to size 10.0pt on input line 273.
 
 [5
 
 ]
 LaTeX Font Info:    Trying to load font information for OT1+FiraMono-TOsF on in
-put line 298.
+put line 297.
  (c:/texlive/2025/texmf-dist/tex/latex/fira/OT1FiraMono-TOsF.fd
 File: OT1FiraMono-TOsF.fd 2019/10/10 (autoinst) Font definitions for OT1/FiraMo
 no-TOsF.
 )
-LaTeX Font Info:    Font shape `OT1/FiraMono-TOsF/m/n' in size <7> not availabl
+LaTeX Font Info:    Font shape `OT1/FiraMono-TOsF/m/n' in size <5> not availabl
 e
 (Font)              Font shape `OT1/FiraMono-TOsF/regular/n' tried instead on i
-nput line 298.
+nput line 297.
 LaTeX Font Info:    Font shape `OT1/FiraMono-TOsF/regular/n' will be
-(Font)              scaled to size 7.0pt on input line 298.
+(Font)              scaled to size 5.0pt on input line 297.
+ [6
 
-Overfull \vbox (191.76534pt too high) detected at line 298
- []
-
-[6
-
-{c:/texlive/2025/texmf-dist/fonts/enc/dvips/fira/fir_35cirm.enc}]
-Overfull \vbox (73.86166pt too high) detected at line 317
- []
-
-[7
+{c:/texlive/2025/texmf-dist/fonts/enc/dvips/fira/fir_35cirm.enc}] [7
 
 ]
 \tf@nav=\write6
@@ -1432,28 +1407,28 @@ Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: 64610167DECEB7C92454D80B452D24E5;410.
  ) 
 Here is how much of TeX's memory you used:
- 38227 strings out of 467538
- 902581 string characters out of 5423724
- 1480374 words of memory out of 5000000
- 66371 multiletter control sequences out of 15000+600000
- 691413 words of font info for 84 fonts, out of 8000000 for 9000
+ 38124 strings out of 467538
+ 899209 string characters out of 5423724
+ 1468020 words of memory out of 5000000
+ 66271 multiletter control sequences out of 15000+600000
+ 695509 words of font info for 89 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 128i,20n,123p,725b,2591s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 128i,20n,123p,725b,2627s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <c:/texlive/2025/texmf-dist/fonts/type1/public/fira/FiraMono-Regular.pfb><c:/
 texlive/2025/texmf-dist/fonts/type1/public/fira/FiraSans-Bold.pfb><c:/texlive/2
 025/texmf-dist/fonts/type1/public/fira/FiraSans-Italic.pfb><c:/texlive/2025/tex
 mf-dist/fonts/type1/public/fira/FiraSans-Regular.pfb><c:/texlive/2025/texmf-dis
-t/fonts/type1/public/amsfonts/cmextra/cmex7.pfb><c:/texlive/2025/texmf-dist/fon
-ts/type1/public/amsfonts/cm/cmmi5.pfb><c:/texlive/2025/texmf-dist/fonts/type1/p
-ublic/amsfonts/cm/cmmi7.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsf
-onts/cm/cmmi8.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cm
-ss8.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb><c
-:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb><c:/texlive/
-2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
-Output written on main.pdf (7 pages, 677506 bytes).
+t/fonts/type1/public/amsfonts/cmextra/cmex8.pfb><c:/texlive/2025/texmf-dist/fon
+ts/type1/public/amsfonts/cm/cmmi6.pfb><c:/texlive/2025/texmf-dist/fonts/type1/p
+ublic/amsfonts/cm/cmmi8.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsf
+onts/cm/cmss8.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cm
+sy5.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb><c
+:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb><c:/texlive/
+2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb>
+Output written on main.pdf (7 pages, 674827 bytes).
 PDF statistics:
- 375 PDF objects out of 1000 (max. 8388607)
- 272 compressed objects within 3 object streams
+ 362 PDF objects out of 1000 (max. 8388607)
+ 260 compressed objects within 3 object streams
  49 named destinations out of 1000 (max. 500000)
  93 words of extra memory for PDF output out of 10000 (max. 10000000)
 

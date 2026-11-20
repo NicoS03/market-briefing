@@ -78,12 +78,12 @@
 \usepackage{multicol}
 \usepackage{xurl}
 \usepackage{bibentry}
-\newcommand{\refitem}[1]{\par\noindent\hangindent=1.2em\hangafter=1 \bibentry{#1}\par\vspace{1.5pt}}
+\newcommand{\refitem}[1]{\par\noindent\hangindent=1.2em\hangafter=1 {\renewcommand{\newblock}{\ }\bibentry{#1}}\par\vspace{2pt}}
 \newcommand{\pct}{\,\%}
 \newcommand{\bp}{\,bp}
 \newcommand{\srcline}[1]{\par\vspace{2pt}{\tiny\color{softgrey}#1\par}}
 \pgfplotsset{decomp/.style={
-  scale only axis, width=0.86\linewidth, height=0.40\textheight,
+  scale only axis, width=0.88\linewidth, height=0.50\textheight,
   xmin=-0.7, xmax=7.7, ymin=-12, ymax=104,
   xtick={0,1,3,4,6,7}, xticklabels={EA,US,EA,US,EA,US},
   ytick={0,20,40,60,80},
@@ -114,31 +114,29 @@
 \section{Inflation}
 \begin{frame}{An energy shock is keeping inflation high and pushing the ECB and the Fed towards December hikes}
 \begin{columns}[T,onlytextwidth]
-\column{0.60\textwidth}
-\footnotesize
-\begin{itemize}\setlength{\itemsep}{2pt}
-  \item Euro area HICP \textbf{\HicpOct\pct} in October (Sep \HicpSep\pct), the highest since Sep 2023. Final data of 18 Nov: core \CoreOct\pct{} (flash \CoreFlash\pct), energy \EnergyOct\pct{} (flash \EnergyFlash\pct).
-  \item FSR: energy lifted short-term inflation compensation, medium-term is little changed. War from 2 Mar 2026, ceasefire 7 Apr, breakdown 27 Jun.
-  \item US October CPI $+\UsCpiMoM$\pct{} m/m (\UsCpiExp\pct{} expected), core $+\UsCoreMoM$\pct. No annual rate, as October 2025 prices were never collected.
+\column{0.44\textwidth}
+\small
+\begin{itemize}\setlength{\itemsep}{6pt}
+  \item Euro area HICP \textbf{\HicpOct\pct} in Oct, highest since Sep 2023. Core \CoreOct\pct, energy \textbf{\EnergyOct\pct}.
+  \item Energy lifts short-term, not medium-term, inflation compensation (FSR).
+  \item US Oct CPI \textbf{+\UsCpiMoM\pct{} m/m}, above the \UsCpiExp\pct{} expected.
 \end{itemize}
-\vspace{1pt}
-{\scriptsize
-\begin{tabularx}{\linewidth}{@{}l l X l r@{}}
+\vspace{8pt}
+{\footnotesize
+\begin{tabularx}{\linewidth}{@{}l X l r@{}}
 \toprule
- & Policy rate & 2026 moves & Next & $P(+25\,\text{bp})$ \\
+ & Policy rate & Next & $P(+25\,\text{bp})$ \\
 \midrule
-ECB & DFR \EcbDfr\pct & $+25$\bp{} Jun, Sep; hold 29 Oct & 17 Dec & \EcbProbHike\pct \\
-Fed & \FedLow{} to \FedHigh\pct & $+25$\bp{} Sep; hold 28 Oct, 2 dissents for a hike & 9 Dec & \FedProbHikeCme{} to \FedProbHikeLseg\pct \\
+ECB & \EcbDfr\pct & 17 Dec & \textbf{\EcbProbHike\pct} \\
+Fed & \FedLow{} to \FedHigh\pct & 9 Dec & \textbf{\FedProbHikeCme{} to \FedProbHikeLseg\pct} \\
 \bottomrule
 \end{tabularx}}
-\par\vspace{1pt}
-{\scriptsize Probabilities are read from OIS and futures:\quad
-$E[\Delta r]=\sum_i p_i\,\Delta_i,\qquad \sum_i p_i=1.$\par}
-\srcline{Market implied, risk-neutral probabilities, not forecasts. ECB \EcbProbHike\pct, Fed \FedProbHikeLseg\pct: LSEG via Trading Economics, 18 Nov 2026. Fed \FedProbHikeCme\pct: CME FedWatch via CNBC, 18 Nov 2026. Rates: ECB, 10 Sep and 29 Oct; FOMC, 16 Sep and 28 Oct 2026. HICP: Eurostat, 4 and 18 Nov 2026. US CPI: BLS via StockAnalysis, 10 Nov 2026. War dates: FSR Chart 2.1 notes.}
-\column{0.37\textwidth}
+\vfill
+\srcline{Probabilities: market implied (risk-neutral), LSEG via Trading Economics and CME FedWatch via CNBC, 18 Nov 2026. HICP: Eurostat, 18 Nov 2026 (final). US CPI: BLS via StockAnalysis, 10 Nov 2026. Rates: ECB 29 Oct, FOMC 28 Oct 2026.}
+\column{0.53\textwidth}
 \centering
-\includegraphics[height=0.60\textheight]{figures/fsr_chart_2_5a.pdf}
-\srcline{Source: ECB Financial Stability Review, November 2026, Chart 2.5, panel a (vector crop). Gas: TTF day ahead, \texteuro.}
+\includegraphics[height=0.74\textheight]{figures/fsr_chart_2_5a.pdf}
+\srcline{Source: ECB Financial Stability Review, November 2026, Chart 2.5, panel a.}
 \end{columns}
 \end{frame}
 
@@ -146,28 +144,27 @@ $E[\Delta r]=\sum_i p_i\,\Delta_i,\qquad \sum_i p_i=1.$\par}
 \section{Yields}
 \begin{frame}{Sovereign yields are near post-crisis highs, and in the euro area inflation and term premia each explain about half of the rise}
 \begin{columns}[T,onlytextwidth]
-\column{0.55\textwidth}
-\footnotesize
-\begin{itemize}\setlength{\itemsep}{2pt}
-  \item FSR: yields rose together and are close to post-GFC highs, especially at the long end. Markets stayed orderly, but the US Treasury stepped up buybacks of long bonds.
-  \item 19 Nov: Bund 10y \BundTenNow\pct{} (17-year high \BundTenPeak\pct{} in late Sep). US Treasuries: 2y \UstTwoNow\pct, 10y \UstTenNow\pct, 30y \UstThirtyNow\pct.
-  \item Week to 13 Nov: US 2y $+\UstTwoWeek$\bp, 10y $+\UstTenWeek$\bp. A bear flattening after hot CPI and hawkish Fed comments.
+\column{0.40\textwidth}
+\small
+\begin{itemize}\setlength{\itemsep}{6pt}
+  \item Yields near \textbf{post-GFC highs}, mostly at the long end (FSR).
+  \item 19 Nov: Bund 10y \textbf{\BundTenNow\pct}, US 10y \textbf{\UstTenNow\pct}.
+  \item Week to 13 Nov: US 2y \textbf{+\UstTwoWeek\bp}, 10y +\UstTenWeek\bp. Bear flattening.
 \end{itemize}
-\vspace{-4pt}
-{\scriptsize
+\vspace{4pt}
+{\footnotesize
 \begin{align*}
-y_t^{(n)} &= \underbrace{\tfrac1n\textstyle\sum_{k=0}^{n-1}E_t[r_{t+k}]}_{\text{expectations}}+\underbrace{TP_t^{(n)}}_{\text{term premium}}
-&
-y_t^{(n)} &\approx \underbrace{r_t^{(n)}}_{\text{real rate}}+\underbrace{\pi_t^{BE,(n)}}_{\text{inflation comp.}}
-\end{align*}}
-\vspace{-10pt}
-\srcline{Right: Fisher relation. FSR real rate: euro area OIS minus inflation-linked swap; US Treasury yield minus break-even. Both split the same yield change: the model split adds up to the fitted change (EA \EaFitted\bp, US \UsFitted\bp), the Fisher split to the observed change (EA \EaObserved\bp, US \UsObserved\bp). Sources: ECB FSR Nov 2026, Section 2.2; Trading Economics and Reuters via Rallies, 19 Nov; US Treasury par yields, 6 to 19 Nov; Reuters via AOL, 16 Nov 2026.}
-\column{0.42\textwidth}
+y^{(n)}_t &= \underbrace{\tfrac1n\textstyle\sum_{k=0}^{n-1}E_t[r_{t+k}]}_{\text{expectations}} + \underbrace{TP^{(n)}_t}_{\text{term premium}}\\[2pt]
+y^{(n)}_t &\approx \underbrace{r^{(n)}_t}_{\text{real rate}} + \underbrace{\pi^{BE,(n)}_t}_{\text{inflation comp.}}
+\end{align*}\par}
+\vfill
+\srcline{Bund: Trading Economics, 19 Nov 2026. US: Treasury par yields, 6 to 19 Nov 2026.}
+\column{0.57\textwidth}
 \centering
-{\scriptsize\textbf{Yield changes since 1 Jan 2026, bp}\par}
+{\footnotesize\textbf{10y and 30y yield change since 1 Jan 2026, bp}\par}
 \begin{tikzpicture}
-\begin{axis}[decomp, ybar stacked, bar width=8pt,
-  legend style={font=\tiny, draw=none, fill=none, at={(0.5,-0.12)}, anchor=north, legend columns=2, /tikz/every even column/.append style={column sep=4pt}},
+\begin{axis}[decomp, ybar stacked, bar width=12pt,
+  legend style={font=\scriptsize, draw=none, fill=none, at={(0.5,-0.10)}, anchor=north, legend columns=4, /tikz/every even column/.append style={column sep=5pt}},
   boxlegend]
   \addplot[fill=accent, draw=none] table[x=x, y=exp]{assets/data/fsr24b.dat};
   \addplot[fill=amber, draw=none] table[x=x, y=tp]{assets/data/fsr24b.dat};
@@ -177,18 +174,18 @@ y_t^{(n)} &\approx \underbrace{r_t^{(n)}}_{\text{real rate}}+\underbrace{\pi_t^{
   \draw[softgrey!60] (axis cs:-0.7,0) -- (axis cs:7.7,0);
   \draw[softgrey!50, dashed] (axis cs:2,-12) -- (axis cs:2,104);
   \draw[softgrey!50, dashed] (axis cs:5,-12) -- (axis cs:5,104);
-  \node[font=\tiny, align=center, text=softgrey] at (axis cs:0.5,98) {10-year\\model split};
-  \node[font=\tiny, align=center, text=softgrey] at (axis cs:3.5,98) {10-year\\Fisher split};
-  \node[font=\tiny, align=center, text=softgrey] at (axis cs:6.5,98) {30-year\\Fisher split};
+  \node[font=\scriptsize, align=center, text=softgrey] at (axis cs:0.5,97) {10y model};
+  \node[font=\scriptsize, align=center, text=softgrey] at (axis cs:3.5,97) {10y Fisher};
+  \node[font=\scriptsize, align=center, text=softgrey] at (axis cs:6.5,97) {30y Fisher};
 \end{axis}
 \begin{axis}[decomp, hide axis, /pgf/number format/fixed, /pgf/number format/precision=0]
-  \addplot[only marks, mark=diamond*, mark size=2.2pt, black,
+  \addplot[only marks, mark=diamond*, mark size=2.6pt, black,
     nodes near coords, point meta=y,
-    every node near coord/.style={font=\tiny, anchor=south, yshift=1pt}]
+    every node near coord/.style={font=\scriptsize\bfseries, anchor=south, yshift=1pt}]
     table[x=x, y=total]{assets/data/fsr24b.dat};
 \end{axis}
 \end{tikzpicture}
-\srcline{Diamonds: sum of components. EA to 10 Nov, US to 9 Nov 2026. Rebuilt from the chart data of ECB Financial Stability Review, November 2026, Chart 2.4, panel b. Models: EA \citet{joslin2011}, \citet{geiger2018}; US \citet{adrian2013}, \citet{christensen2012}, \citet{damico2018}.}
+\srcline{Rebuilt from the chart data of ECB Financial Stability Review, November 2026, Chart 2.4, panel b (EA to 10 Nov, US to 9 Nov). Models: \citet{joslin2011}, \citet{geiger2018}, \citet{adrian2013}, \citet{christensen2012}, \citet{damico2018}.}
 \end{columns}
 \end{frame}
 
@@ -196,34 +193,34 @@ y_t^{(n)} &\approx \underbrace{r_t^{(n)}}_{\text{real rate}}+\underbrace{\pi_t^{
 \section{Spreads}
 \begin{frame}{France leads the spread widening, and a more fragile investor base raises the risk of abrupt repricing}
 \begin{columns}[T,onlytextwidth]
-\column{0.55\textwidth}
-\footnotesize
-\begin{itemize}\setlength{\itemsep}{2pt}
-  \item FSR: the OAT-Bund spread rose significantly, with spillovers to other high-debt sovereigns while Bunds gained as a safe haven. Since 2025, spread changes track projected debt-to-GDP, more steeply at the long end.
-  \item Market data: OAT-Bund \OatSpreadNow\bp{} on 19 Nov, down from \OatSpreadPeak\bp{} in late Oct, the highest since Nov 2011. BTP-Bund closed at \BtpSpreadSeventeen\bp{} on 17 Nov.
-  \item Central banks hold \HoldCbNew\pct{} of euro area sovereign debt (\HoldCbOld\pct{} in 2022), foreign investors \HoldForNew\pct{} (\HoldForOld\pct). With leveraged hedge funds and a quarter of debt due by end-2028, the ECB sees ``the risk of abrupt repricing episodes''.
-\end{itemize}
-\srcline{BTP: Buoni del Tesoro Poliennali (Italy). OAT: Obligations assimilables du Trésor (France). Bonos: Spanish government bonds. Spread: $s_c=y^{10Y}_c-y^{10Y}_{\text{Bund}}$.\\ Sources: ECB FSR Nov 2026, Section 2.2, Chart 2.6, Box 7; ECB press release and FSR press briefing slide 8 (2022 vs Q2 2026), 18 Nov 2026; Reuters via Rallies, 19 Nov, and via AOL, 16 Nov 2026; SoldiOnline, 17 Nov 2026.}
 \column{0.42\textwidth}
-\centering
-{\scriptsize\textbf{10-year spreads over the Bund, pp}\par}
-\includegraphics[height=0.40\textheight]{figures/ecb_fsr_briefing_spreads.pdf}
-\srcline{1 Jan 2007 to 10 Nov 2026. Source: ECB FSR press briefing, 18 Nov 2026, slide 8 (data of FSR Chart 2.5, panel b), vector crop.}
-\vspace{3pt}
-{\scriptsize\textbf{Snapshot, 12 Nov 2026 opening, bp}\par}
+\small
+\begin{itemize}\setlength{\itemsep}{6pt}
+  \item OAT-Bund \textbf{\OatSpreadNow\bp} on 19 Nov, after \textbf{\OatSpreadPeak\bp} in late Oct, the highest since 2011.
+  \item Central banks hold \textbf{\HoldCbNew\pct} of EA sovereign debt (\HoldCbOld\pct{} in 2022), foreign investors \textbf{\HoldForNew\pct}.
+  \item ECB: ``the risk of abrupt repricing episodes'' is rising.
+\end{itemize}
+\vspace{4pt}
+{\footnotesize\textbf{10y spread to the Bund, 12 Nov 2026, bp}\par}
 \begin{tikzpicture}
-\begin{axis}[xbar, scale only axis, width=0.55\linewidth, height=1.1cm,
-  bar width=5pt, bar shift=0pt, xmin=0, xmax=175, ymin=-0.6, ymax=2.6, y dir=reverse,
+\begin{axis}[xbar, scale only axis, width=0.52\linewidth, height=1.4cm,
+  bar width=7pt, bar shift=0pt, xmin=0, xmax=175, ymin=-0.6, ymax=2.6, y dir=reverse,
   ytick={0,1,2}, yticklabels={Italy (BTP), France (OAT), Spain (Bono)},
-  tick label style={font=\scriptsize}, xtick=\empty, tick style={draw=none},
+  tick label style={font=\footnotesize}, xtick=\empty, tick style={draw=none},
   axis x line=none, axis y line*=left, clip=false,
-  nodes near coords, every node near coord/.append style={font=\scriptsize}]
+  nodes near coords, every node near coord/.append style={font=\footnotesize\bfseries}]
   \addplot[fill=accent, draw=none] coordinates {(\SBtp,0)};
   \addplot[fill=amber, draw=none] coordinates {(\SOat,1)};
   \addplot[fill=accent, draw=none] coordinates {(\SBono,2)};
 \end{axis}
 \end{tikzpicture}
-\srcline{Bund \YBund\pct, BTP \YBtp\pct, OAT \YOat\pct, Bono \YBono\pct. Source: QuiFinanza, 12 Nov 2026.}
+\vfill
+\srcline{Spread $s_c=y^{10Y}_c-y^{10Y}_{\text{Bund}}$. BTP Italy, OAT France, Bono Spain. Sources: Reuters via Rallies (19 Nov) and AOL (16 Nov); QuiFinanza, 12 Nov (opening); ECB press release and FSR briefing, 18 Nov 2026.}
+\column{0.55\textwidth}
+\centering
+{\footnotesize\textbf{10-year spreads over the Bund, pp}\par}
+\includegraphics[width=0.97\linewidth]{figures/ecb_fsr_briefing_spreads.pdf}
+\srcline{1 Jan 2007 to 10 Nov 2026. Source: ECB FSR press briefing, 18 Nov 2026, slide 8 (data of FSR Chart 2.5, panel b).}
 \end{columns}
 \end{frame}
 
@@ -231,52 +228,54 @@ y_t^{(n)} &\approx \underbrace{r_t^{(n)}}_{\text{real rate}}+\underbrace{\pi_t^{
 \section{Outlook}
 \begin{frame}{What to watch in the coming days: data, central bank decisions and the fiscal premium}
 \centering
+\vspace{4pt}
 \begin{tikzpicture}[x=4.1mm]
   % x = days after 20 Nov 2026
   \draw[softgrey!60, line width=1.2pt, -{Latex[length=2.5mm]}] (-1,0) -- (29,0);
   \foreach \d/\lab/\txt/\col in {
-      0/{Fri 20 Nov}/{Lagarde keynote,\\European Banking\\Congress}/accent,
-      11/{Tue 1 Dec}/{Euro area flash\\HICP, November}/accent,
-      27/{Thu 17 Dec}/{ECB decision\\$P(+25\,\text{bp})$ \EcbProbHike\pct}/amber} {
+      0/{Fri 20 Nov}/{Lagarde keynote}/accent,
+      11/{Tue 1 Dec}/{EA flash HICP}/accent,
+      27/{Thu 17 Dec}/{\textbf{ECB decision}\\$P(+25\,\text{bp})$ \textbf{\EcbProbHike\pct}}/amber} {
     \fill[\col] (\d,0) circle (3pt);
-    \node[above=4pt, font=\scriptsize\bfseries, text=\col] (lab) at (\d,0) {\lab};
-    \node[above=-1pt, align=center, font=\scriptsize] at (lab.north) {\txt};
+    \node[above=4pt, font=\footnotesize\bfseries, text=\col] (lab) at (\d,0) {\lab};
+    \node[above=-1pt, align=center, font=\footnotesize] at (lab.north) {\txt};
   }
   \foreach \d/\lab/\txt/\col in {
-      5/{Wed 25 Nov}/{US core PCE, consensus \PceFcst\pct{} m/m\\Q3 GDP 2nd estimate, consensus \GdpFcst\pct}/accent,
-      19/{Wed 9 Dec}/{FOMC decision and projections\\$P(+25\,\text{bp})$ \FedProbHikeCme{} to \FedProbHikeLseg\pct}/amber} {
+      5/{Wed 25 Nov}/{US core PCE, Q3 GDP}/accent,
+      19/{Wed 9 Dec}/{\textbf{FOMC decision}\\$P(+25\,\text{bp})$ \textbf{\FedProbHikeCme{} to \FedProbHikeLseg\pct}}/amber} {
     \fill[\col] (\d,0) circle (3pt);
-    \node[below=4pt, font=\scriptsize\bfseries, text=\col] (lab) at (\d,0) {\lab};
-    \node[below=-1pt, align=center, font=\scriptsize] at (lab.south) {\txt};
+    \node[below=4pt, font=\footnotesize\bfseries, text=\col] (lab) at (\d,0) {\lab};
+    \node[below=-1pt, align=center, font=\footnotesize] at (lab.south) {\txt};
   }
 \end{tikzpicture}
 
-\vspace{4pt}
-\setbeamerfont{block title}{size=\footnotesize}
+\vspace{10pt}
+\setbeamerfont{block title}{size=\small}
 \begin{columns}[T,onlytextwidth]
-\column{0.32\textwidth}
+\column{0.31\textwidth}
 \begin{block}{Oil and gas prices}
-\footnotesize Drive headline HICP and short-term inflation compensation, and with it the size of the December hikes.
+\footnotesize Set short-term inflation and the size of the hikes.
 \end{block}
-\column{0.32\textwidth}
+\column{0.31\textwidth}
 \begin{block}{OAT-Bund spread}
-\footnotesize \OatSpreadNow\bp{} on 19 Nov. The French budget and political risk set the fiscal premium.
+\footnotesize \textbf{\OatSpreadNow\bp} on 19 Nov. French budget sets the fiscal premium.
 \end{block}
-\column{0.32\textwidth}
+\column{0.31\textwidth}
 \begin{block}{Long-dated auctions}
-\footnotesize Demand at the long end shows whether investors still absorb duration without a higher term premium.
+\footnotesize Demand at the long end drives the term premium.
 \end{block}
 \end{columns}
 
-\vspace{2pt}
-\quoted{Takeaway: energy keeps policy tight, and fiscal fundamentals decide where the term premium lands.}
-\srcline{Sources: ECB weekly schedule (20 Nov) and Governing Council calendar (16 and 17 Dec); Yahoo Finance data calendar, 19 Nov 2026; Eurostat, 18 Nov 2026 (next flash 1 Dec); FOMC meeting calendar; probabilities as on the inflation slide: LSEG via Trading Economics and CME FedWatch via CNBC, 18 Nov 2026.}
+\vspace{10pt}
+\quoted{Energy keeps policy tight, and fiscal fundamentals decide where the term premium lands.}
+\vfill
+\srcline{Sources: ECB weekly schedule and Governing Council calendar; FOMC calendar; Eurostat, 18 Nov 2026; Yahoo Finance data calendar, 19 Nov 2026 (consensus: core PCE \PceFcst\pct{} m/m, Q3 GDP \GdpFcst\pct); probabilities as on slide 2.}
 \end{frame}
 
 % =====================================================================
 \section{References}
 \begin{frame}{References (1/2): official sources and data}
-\scriptsize\raggedright\setlength{\columnsep}{16pt}
+\tiny\raggedright\setlength{\columnsep}{16pt}
 \begin{multicols}{2}
 \refitem{ecb2026fsr}
 \refitem{ecb2026fsrdata}
@@ -298,7 +297,7 @@ y_t^{(n)} &\approx \underbrace{r_t^{(n)}}_{\text{real rate}}+\underbrace{\pi_t^{
 \end{frame}
 
 \begin{frame}{References (2/2): market news and term-structure models}
-\scriptsize\raggedright\setlength{\columnsep}{16pt}
+\tiny\raggedright\setlength{\columnsep}{16pt}
 \begin{multicols}{2}
 \refitem{reuters2026aol}
 \refitem{reuters2026rallies}
