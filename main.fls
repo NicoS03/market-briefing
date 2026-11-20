@@ -458,7 +458,6 @@ INPUT ./main.bbl
 INPUT ./main.bbl
 INPUT main.bbl
 INPUT c:/texlive/2025/texmf-dist/fonts/tfm/public/fira/FiraSans-Regular-tlf-ot1.tfm
-INPUT c:/texlive/2025/texmf-dist/fonts/tfm/public/fira/FiraSans-Regular-tlf-ot1.tfm
 INPUT c:/texlive/2025/texmf-var/fonts/map/pdftex/updmap/pdftex.map
 INPUT c:/texlive/2025/texmf-dist/fonts/enc/dvips/fira/fir_q4uag2.enc
 INPUT c:/texlive/2025/texmf-dist/fonts/tfm/public/fira/FiraSans-Regular-tlf-ot1.tfm
@@ -489,6 +488,7 @@ INPUT c:/texlive/2025/texmf-dist/fonts/tfm/public/fira/FiraSans-Italic-tlf-ot1.t
 INPUT c:/texlive/2025/texmf-dist/fonts/tfm/public/fira/FiraSans-Italic-tlf-ot1.tfm
 INPUT c:/texlive/2025/texmf-dist/fonts/tfm/public/fira/FiraSans-Italic-tlf-ot1.tfm
 INPUT c:/texlive/2025/texmf-dist/fonts/tfm/public/fira/FiraSans-Bold-tlf-ot1.tfm
+INPUT c:/texlive/2025/texmf-dist/fonts/tfm/public/fira/FiraSans-Regular-tlf-ot1.tfm
 INPUT c:/texlive/2025/texmf-dist/fonts/tfm/public/cm/cmss8.tfm
 INPUT c:/texlive/2025/texmf-dist/fonts/tfm/public/cm/cmmi8.tfm
 INPUT c:/texlive/2025/texmf-dist/fonts/tfm/public/cm/cmsy8.tfm

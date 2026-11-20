@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (TeX Live 2025) (preloaded format=pdflatex 2025.12.14)  20 NOV 2026 12:40
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (TeX Live 2025) (preloaded format=pdflatex 2025.12.14)  20 NOV 2026 12:44
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1246,12 +1246,6 @@ ble
 put line 111.
 LaTeX Font Info:    Font shape `OT1/FiraSans-TLF/regular/n' will be
 (Font)              scaled to size 14.4pt on input line 111.
-LaTeX Font Info:    Font shape `OT1/FiraSans-TLF/m/n' in size <8> not available
-
-(Font)              Font shape `OT1/FiraSans-TLF/regular/n' tried instead on in
-put line 111.
-LaTeX Font Info:    Font shape `OT1/FiraSans-TLF/regular/n' will be
-(Font)              scaled to size 8.0pt on input line 111.
  [1
 
 {c:/texlive/2025/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{c:/texlive/2025/
@@ -1304,6 +1298,12 @@ LaTeX Font Info:    Font shape `OT1/FiraSans-TLF/b/n' in size <9> not available
  line 141.
 LaTeX Font Info:    Font shape `OT1/FiraSans-TLF/bold/n' will be
 (Font)              scaled to size 9.0pt on input line 141.
+LaTeX Font Info:    Font shape `OT1/FiraSans-TLF/m/n' in size <8> not available
+
+(Font)              Font shape `OT1/FiraSans-TLF/regular/n' tried instead on in
+put line 141.
+LaTeX Font Info:    Font shape `OT1/FiraSans-TLF/regular/n' will be
+(Font)              scaled to size 8.0pt on input line 141.
 <assets/figures/fsr_chart_2_5a.pdf, id=55, 180.675pt x 258.9675pt>
 File: assets/figures/fsr_chart_2_5a.pdf Graphic file (type pdf)
 <use assets/figures/fsr_chart_2_5a.pdf>
@@ -1407,10 +1407,10 @@ Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: 64610167DECEB7C92454D80B452D24E5;410.
  ) 
 Here is how much of TeX's memory you used:
- 38124 strings out of 467538
- 899209 string characters out of 5423724
- 1468020 words of memory out of 5000000
- 66271 multiletter control sequences out of 15000+600000
+ 38123 strings out of 467538
+ 899201 string characters out of 5423724
+ 1468022 words of memory out of 5000000
+ 66270 multiletter control sequences out of 15000+600000
  695509 words of font info for 89 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  128i,20n,123p,725b,2627s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -1425,7 +1425,7 @@ onts/cm/cmss8.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cm
 sy5.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb><c
 :/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb><c:/texlive/
 2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb>
-Output written on main.pdf (7 pages, 674827 bytes).
+Output written on main.pdf (7 pages, 675201 bytes).
 PDF statistics:
  362 PDF objects out of 1000 (max. 8388607)
  260 compressed objects within 3 object streams

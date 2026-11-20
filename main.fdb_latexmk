@@ -1,13 +1,13 @@
 # Fdb version 4
-["bibtex main"] 1795149644.95698 "main.aux" "main.bbl" "main" 1795149650.10766 0
+["bibtex main"] 1795149644.95698 "main.aux" "main.bbl" "main" 1795149865.45133 0
   "./references.bib" 1795149643.94673 10151 4347fafcd9e06ab1a960006878e88db1 ""
   "c:/texlive/2025/texmf-dist/bibtex/bst/natbib/plainnat.bst" 1765725726.1642 26816 ffe5423d2019860bad9f54bc402fac15 ""
-  "main.aux" 1795149648.2769 5519 d3ef8688fb78658f308f068991d7ebde "pdflatex"
+  "main.aux" 1795149863.66805 5519 d3ef8688fb78658f308f068991d7ebde "pdflatex"
   (generated)
   "main.bbl"
   "main.blg"
   (rewritten before read)
-["pdflatex"] 1795149645.76561 "main.tex" "main.pdf" "main" 1795149650.10903 0
+["pdflatex"] 1795149861.14592 "main.tex" "main.pdf" "main" 1795149865.45255 0
   "assets/data/fsr24b.dat" 1795149068.02835 467 2ef24377b8fcb63571c31f35d194fc6f ""
   "assets/figures/ecb_fsr_briefing_spreads.pdf" 1795148340.91867 212030 5db5e9ea478815005a7d50e228dd36f5 ""
   "assets/figures/fsr_chart_2_5a.pdf" 1795148340.84907 182401 fe4e96b247f8d82b9c6ee1224b62c997 ""
@@ -289,11 +289,11 @@
   "c:/texlive/2025/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1765733179 5587484 1a060eae87581422f366c4bed0e377ea ""
   "c:/texlive/2025/texmf-var/web2c/pdftex/pdflatex.fmt" 1765733427 3635706 ff8d374fb58c264fc298a770b7d31c72 ""
   "c:/texlive/2025/texmf.cnf" 1765733147.6868 713 baa45e065482d44c4cd81b98ef72c63b ""
-  "main.aux" 1795149648.2769 5519 d3ef8688fb78658f308f068991d7ebde "pdflatex"
+  "main.aux" 1795149863.66805 5519 d3ef8688fb78658f308f068991d7ebde "pdflatex"
   "main.bbl" 1795149645.59404 9369 a52a78bf29f9ca8b28c60daf41ee183d "bibtex main"
-  "main.nav" 1795149648.27939 1573 73f6ce027801c16d3e27995ba3631583 "pdflatex"
-  "main.out" 1795149648.27839 410 64610167deceb7c92454d80b452d24e5 "pdflatex"
-  "main.tex" 1795149642.47776 14292 e240398b3a10250609e4544037770d8c ""
+  "main.nav" 1795149863.66805 1573 73f6ce027801c16d3e27995ba3631583 "pdflatex"
+  "main.out" 1795149863.66805 410 64610167deceb7c92454d80b452d24e5 "pdflatex"
+  "main.tex" 1795149859.56178 14330 72931caa6ce35d5c570c77ba1336158e ""
   (generated)
   "main.aux"
   "main.log"
