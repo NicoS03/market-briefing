@@ -1,0 +1,10 @@
+% ECB FSR November 2026, Chart 2.4 panel b, chart data annex. bp, 1 Jan to 10 Nov 2026.
+% x: 0 EA 10y model, 1 US 10y model, 3 EA 10y Fisher, 4 US 10y Fisher, 6 EA 30y Fisher, 7 US 30y Fisher
+% exp/tp: model split (sums to fitted change); infl/real: Fisher split (sums to observed change)
+x exp tp infl real total
+0 24.20 22.33 0 0 46.53
+1 58.92 11.30 0 0 70.22
+3 0 0 21.50 25.26 46.76
+4 0 0 -1.99 75.84 73.85
+6 0 0 10.00 0.44 10.44
+7 0 0 -3.97 48.55 44.58
